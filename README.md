@@ -1,29 +1,17 @@
-# Bangalore-Housing-Price-Prediction
+# Bangalore House Price Prediction
 
-![ML](https://img.shields.io/badge/ML-Regression-blue.svg) 
+## Overview
+This project aims to predict house prices in Bangalore using advanced machine learning techniques. By leveraging historical real estate data, the model can provide accurate price estimates based on key features such as location, size, number of bedrooms, and total square footage.
 
-## Project Objectives :
-The objective of the project is to create a machine learning model. We are doing a supervised learning and our aim is to do predictive analysis to predict housing price.
+## Features
+- **Data Collection & Cleaning**: Handling missing values, outliers, and inconsistent data.
+- **Exploratory Data Analysis (EDA)**: Identifying trends, correlations, and key factors influencing house prices.
+- **Feature Engineering**: Selecting and transforming relevant variables for improved model accuracy.
+- **Model Training**: Implementing various regression algorithms, including Linear Regression, Decision Trees, and Random Forest.
+- **Performance Evaluation**: Using metrics such as RMSE, MAE, and R-squared to assess model accuracy.
+- **Prediction & Deployment**: Providing insights and price estimates for users.
 
-## Data Collection :
-The dataset is obtained from Kaggle. 
-
-Link: https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
-
-## Modelling :
-The analysis and model creation can be found in the .ipynb file. 
-
-The main packages used are numpy, pandas, matplotlib, seaborn and sklearn.  
-
-## Deployemnt :
-The web app has been build using basic HTML, CSS, Javascript, Flask and Herkou.
-
-Link: https://bangalore-house-pricing.herokuapp.com/
-
-
-![ML](Screenshots/BangaloreHousePricePredictionHeroku.JPG)
-
-## Future Scope :
-* Use multiple Algorithms
-* Optimize Flask app.py
-* Update the Front-End 
+## Technologies Used
+- **Programming Language**: Python
+- **Libraries & Frameworks**: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+- **Tools**: Jupyter Notebook, Google Colab
